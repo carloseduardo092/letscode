@@ -21,22 +21,22 @@ const listaDeContatos = ['Paulo', 'Selina', 'Roger', 'Rubens', 'Zeca', 'Josué',
 //    }
 // }
 
-let encontrouUsuarioOuPercorreuLista = false
-let indiceDoUsuario = 0
-let fimDaLista = false
+// let encontrouUsuarioOuPercorreuLista = false
+// let indiceDoUsuario = 0
+// let fimDaLista = false
 
 
 
-while (!encontrouUsuarioOuPercorreuLista) {
-    const usuarioAtual = listaDeContatos[indiceDoUsuario]
-    if(usuarioAtual.startsWith('Z',)) {
-        encontrouUsuarioOuPercorreuLista = true
-        console.log(`Usuário encontrado: ${usuarioAtual}`)
-    }
-   indiceDoUsuario += 1
+// while (!encontrouUsuarioOuPercorreuLista) {
+//     const usuarioAtual = listaDeContatos[indiceDoUsuario]
+//     if(usuarioAtual.startsWith('Z',)) {
+//         encontrouUsuarioOuPercorreuLista = true
+//         console.log(`Usuário encontrado: ${usuarioAtual}`)
+//     }
+//    indiceDoUsuario += 1
 
-   if (indiceDoUsuario === listaDeContatos.length){
-    encontrouUsuarioOuPercorreuLista = true
-    console.log('Usuário não foi encontrado')
-   }
-}
+//    if (indiceDoUsuario === listaDeContatos.length){
+//     encontrouUsuarioOuPercorreuLista = true
+//     console.log('Usuário não foi encontrado')
+//    }
+// }
